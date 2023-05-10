@@ -14,7 +14,7 @@ void main(){
     void Consume();
     int ch;
     do{
-         printf("\n1.Page Store\n2.Page Restore\n3.Exit\nEnter your choice:");
+         printf("\n1.produce\n2.consume\n3.Exit\nEnter your choice:");
          scanf("%d",&ch);
          switch (ch)
          {
