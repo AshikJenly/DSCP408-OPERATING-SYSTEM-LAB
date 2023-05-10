@@ -101,8 +101,10 @@ void SegRestore()
   scanf("%d", &seg_no);
 
   if(seg_no >= TOTAL_SEGMENTS)
+  {
     printf("\nsegment number does not exist");
     goto NOT_EXISTS;
+  }
 
   printf("\n\t Segment Details\n");
   printf("\n segment name : %s\n", Seg[seg_no].name);
