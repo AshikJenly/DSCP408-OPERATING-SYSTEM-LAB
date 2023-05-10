@@ -39,7 +39,7 @@ void demandStore()
             scanf("%d",&PAGEFRAMES[i]);
             for ( j = 0; j < i; j++)
             {
-                if(PAGEFRAMES[i]==PAGEFRAMES[j])
+                if(PAGEFRAMES[i]==PAGEFRAMES[j] && PAGEFRAMES[i] != -1)
                 {
                     printf("\nallocated frame");
                     goto isUnique;
